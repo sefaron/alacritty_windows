@@ -1,0 +1,74 @@
+# --- Window Settings ---
+[window]
+dimensions = { columns = 110, lines = 28 }
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+decorations = "full"
+opacity = 0.99 # Slight transparency for that modern feel
+blur = true    # Works on Windows 11
+
+# --- Font Settings ---
+[font]
+size = 11.0
+
+# --- The Spacing Fix ---
+[font.offset]
+x = 1  # Increases horizontal space between letters
+y = 2  # Increases vertical space between lines
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+# This makes the standard text bold
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Bold"
+
+# This handles text that is explicitly tagged as bold (double bold)
+[font.bold]
+family = "JetBrainsMono NF"
+style = "ExtraBold"
+
+[font.italic]
+family = "JetBrainsMono NF"
+style = "Bold Italic"
+
+# --- Cursor ---
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+thickness = 0.15
+
+# --- Terminal Settings ---
+[terminal]
+shell = { program = "powershell.exe", args = ["-NoLogo"] }
+
+[keyboard]
+bindings = [
+  { key = "NumpadEnter", chars = "\r" }
+]
+
+# --- Colors (One Dark Theme) ---
+[colors.primary]
+background = "#282c34"
+foreground = "#abb2bf"
+
+[colors.normal]
+black   = "#282c34"
+red     = "#e06c75"
+green   = "#98c379"
+yellow  = "#d19a66"
+blue    = "#61afef"
+magenta = "#c678dd"
+cyan    = "#56b6c2"
+white   = "#abb2bf"
+
+[colors.bright]
+black   = "#5c6370"
+red     = "#e06c75"
+green   = "#98c379"
+yellow  = "#d19a66"
+blue    = "#61afef"
+magenta = "#c678dd"
+cyan    = "#56b6c2"
+white   = "#ffffff"
