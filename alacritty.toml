@@ -22,16 +22,16 @@ y = 0
 
 # This makes the standard text bold
 [font.normal]
-family = "JetBrainsMono NF"
+family = "JetBrains Mono"
 style = "Bold"
 
 # This handles text that is explicitly tagged as bold (double bold)
 [font.bold]
-family = "JetBrainsMono NF"
+family = "JetBrains Mono"
 style = "ExtraBold"
 
 [font.italic]
-family = "JetBrainsMono NF"
+family = "JetBrains Mono"
 style = "Bold Italic"
 
 # --- Cursor ---
@@ -71,4 +71,5 @@ yellow  = "#d19a66"
 blue    = "#61afef"
 magenta = "#c678dd"
 cyan    = "#56b6c2"
+
 white   = "#ffffff"
